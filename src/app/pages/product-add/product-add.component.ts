@@ -8,6 +8,7 @@ import { ProductService } from 'src/app/services/services.component';
   templateUrl: './product-add.component.html',
   styleUrls: ['./product-add.component.scss']
 })
+
 export class ProductAddComponent {
   productForm = this.formBuilder.group({
     name: ['', [Validators.required, Validators.minLength(4)]],

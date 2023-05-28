@@ -13,6 +13,7 @@ describe('ProductEditComponent', () => {
     fixture = TestBed.createComponent(ProductEditComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
+    
   });
 
   it('should create', () => {
