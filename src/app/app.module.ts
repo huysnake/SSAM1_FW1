@@ -23,6 +23,7 @@ import { ProductListComponent } from './pages/product-list/product-list.componen
     ProductListComponent,
 
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,

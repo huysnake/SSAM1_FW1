@@ -25,4 +25,6 @@ export class ProductService {
   deleteProduct(id: any): Observable<IProduct> {
     return this.http.delete<IProduct>(`http://localhost:3000/products/${id}`);
   }
+
+  
 }
